@@ -17,10 +17,14 @@ import { AppRoutingModule } from '../app-routing.module';
     SharedModule,
     BrowserModule,
     AppRoutingModule
+    
   ],
   exports: [
     HomeComponent,
     AboutMeComponent
   ]
 })
-export class HomeModule { }
+export class HomeModule {
+  constructor(){
+  }
+ }
